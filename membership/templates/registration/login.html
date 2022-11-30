@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>login</title>
+</head>
+<style>
+body {
+  /* The image used */
+  background-image: url("https://wallpaperaccess.com/full/3910193.jpg");
+  /* Full height */
+  /* Center and scale the image nicely */
+  background-size: cover;
+}
+  .center {
+  margin: auto;
+  width: 50%;
+  border: 3px solid black;
+  padding: 10px;
+}
+</style>
+
+<body>
+<center>
+<h2>LOGIN PAGE</h2>
+    </center>
+{% if forms.errors %}
+<p> There is something wrong u have entered</p>
+{% endif %}
+{% if next %}
+<p> Hey, u can't access page.</p>
+{% endif %}
+<form class="center" method = "post" action="{% url 'login'%}">
+{% csrf_token %}
+    <p>username:{{form.username}} </p>
+
+<p>Password: {{form.password}}</p>
+<input type ="submit" value = "login">
+<input type="hidden" name="next" value="{{next}}">
+
+    </form>
+</body>
+</html>

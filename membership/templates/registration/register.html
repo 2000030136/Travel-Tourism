@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register</title>
+
+</head>
+<style>
+body {
+  /* The image used */
+  background-image: url("https://wallpaperaccess.com/full/3910193.jpg");
+  /* Full height */
+  /* Center and scale the image nicely */
+  background-size: cover;
+}
+  .center {
+  margin: auto;
+  width: 50%;
+  border: 3px solid black;
+  padding: 10px;
+}
+
+</style>
+<center>
+
+<body>
+<h1>WELCOME TO SMILES TO MILES</h1>
+<h2>Regiser now!!!!!</h2>
+
+
+
+<form class="center" method = "post" action="{% url 'register' %}">
+{% csrf_token %}
+    {% if forms.errors %}
+    <p>username:{{form.username}} </p>
+    <p> There are errors in the form</p>
+    {% endif %}
+    {{form}}
+    <input type="submit" value="Register">
+
+
+
+
+<p>
+    Already have an account click login here!!
+    <button ><a href="../accounts/login">LOGIN</a></button>
+</p>
+    </center>
+</form>
+
+</html>
