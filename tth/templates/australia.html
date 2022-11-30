@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+{% load static %}
+<head>
+    <meta charset="UTF-8">
+    <title>australia</title>
+</head>
+<style>
+
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #000000;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #DEB887;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #DEB887;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #DEB887;
+  color: white;
+}
+
+.container {
+  position: relative;
+  max-width: 900px; /* Maximum width */
+<!--  margin: 0 auto; /* Center it */-->
+}
+
+.container .content {
+  text-align: right;
+  position: absolute; /* Position the background text */
+  bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1; /* Grey text */
+  width: 100%; /* Full width */
+
+  padding: 20px; /* Some padding */
+}
+
+</style>
+<body>
+<div class="topnav">
+  <a class="active" href="/basic">HOME</a>
+  <a href="/tours">TOURS</a>
+  <a href="/contact">CONTACT</a>
+  <a href="/index">LOGOUT</a>
+  <a href="/cards">SERVICES</a>
+  <a href="/payment">PAYMENT</a>
+
+    <div align="left" class="translate" id="google_translate_element"></div>
+
+<script  class="translate" type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+}
+</script>
+
+</div>
+
+<script  class="translate" type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+<div class="container">
+  <img src="{% static 'aussie.jpg' %}" alt="Notebook" width="1600" height="600">
+  <div  class="content">
+    <h1>AUSTRALIA</h1>
+    <p>	There's Nothing Like Australia</p>
+  </div>
+</div>
+<p style = "font-family:georgia,garamond,serif;font-size:20px;;">
+    Australia is a land of dreams. From the sacred legends of the Aboriginal Dreamtime, when the great spirits conjured the coral reefs, rainforests, and red deserts, to armchair travelers who describe Australia as their dream destination, the Land Down Under deserves all the hype. <br>The world's smallest continent and largest island, Australia is almost the same size as the United States but with a population the size of New York State and some of the quirkiest wildlife on the planet.
+<br>
+Australia is also a land of staggering contrasts and spectacular beauty.<br> Along the coast, you can explore vibrant cities, vast sand islands, ancient rainforests, and one of the planet's most awe-inspiring natural wonders: the Great Barrier Reef. In the Outback, rugged national parks and red-earthed deserts offer the ultimate in adventure travel.
+<br>
+Top it all off with a laid-back feel and friendly people, and it's no wonder Australia scores top billing on bucket lists around the world. Create your own adventures with our list of the top attractions in Australia.
+    <br>
+    Some of the places are:
+<center>
+    <div>
+    <h2>1. Sydney Opera House, New South Wales</h2><br>
+    <img src="{% static 'opera.jpg' %}" width="700" height="500">
+    <p style="font-size: 20px;">
+        Mention "Sydney, Australia" and most people think of the Opera House.<br> Shaped like huge shells or billowing sails, this famous building on Sydney's Bennelong Point graces the list of UNESCO World Heritage Sites and is one of the world's great architectural icons.
+<br>
+The location is stunning. Water surrounds the structure on three sides, and the Royal Botanic Gardens border it to the south.
+    </p>
+    </div>
+div>
+    <h2>2. Great Barrier Reef Marine Park, Queensland<br></h2><br>
+    <img src="https://media.istockphoto.com/photos/whitsunday-islands-great-barrier-reef-queensland-australia-picture-id908189050?k=20&m=908189050&s=612x612&w=0&h=gCj47LhCcyXZOsAIkhfEhFzThDGsxkulYNlivYHOhUI=" width="700" height="500">
+    <p style="font-size: 20px;">
+        You can't leave Australia without seeing the Great Barrier Reef.<br> This World Heritage-listed natural wonder is one of the largest living structures on the planet. It's so vast, you can see it from outer space. For divers, snorkelers, island aficionados, and nature lovers, it's a bucket list destination.<br>
+In 1975, the Great Barrier Reef Marine Park was established to protect its fragile ecosystems.<br> These include more than 3,000 coral reefs; 600 continental islands, including the beautiful Whitsunday group; 300 coral cays; and inshore mangrove islands.
+        he location is stunning.<br> Water surrounds the structure on three sides, and the Royal Botanic Gardens border it to the south.
+    </p>
+    </div>
+
+
+</p>
+</center>
+</body>
+</html>
