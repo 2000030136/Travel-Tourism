@@ -25,4 +25,4 @@
 
 ![image_2022-04-30_09-56-36](https://user-images.githubusercontent.com/76051929/204720276-4f2b5b38-18a0-423e-9a5b-c6a8db61d32d.png)
 
-![stud-1](https://user-images.githubusercontent.com/76051929/205580869-ebebc039-1f53-4dfe-aef5-eb5563b27c49.png)
+
