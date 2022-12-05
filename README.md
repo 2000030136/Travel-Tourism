@@ -24,3 +24,5 @@
 ![image_2022-04-30_09-52-45](https://user-images.githubusercontent.com/76051929/204720295-289191ec-c610-4ce9-8167-b7e4b6276f5b.png)
 
 ![image_2022-04-30_09-56-36](https://user-images.githubusercontent.com/76051929/204720276-4f2b5b38-18a0-423e-9a5b-c6a8db61d32d.png)
+
+![stud-1](https://user-images.githubusercontent.com/76051929/205580869-ebebc039-1f53-4dfe-aef5-eb5563b27c49.png)
